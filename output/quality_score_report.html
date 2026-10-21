@@ -1,0 +1,86 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<title>FAANGM Growth Quality Report</title>
+<style>body{font-family:Arial,sans-serif;max-width:1100px;margin:40px auto;line-height:1.5}
+img{max-width:100%} table{border-collapse:collapse;width:100%} th,td{border:1px solid #ddd;padding:8px;text-align:right}
+th{background:#f3f4f6} th:first-child,td:first-child{text-align:left}</style></head><body>
+<h1>FAANGM Growth Quality Report</h1>
+<p>Scores are relative percentile scores within the six-company universe. Source: SEC Company Facts API.</p>
+<img src='quality_score_ranking.png' alt='Quality score ranking'>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>company</th>
+      <th>ticker</th>
+      <th>latest_quarter_end</th>
+      <th>revenue_growth_yoy</th>
+      <th>operating_margin</th>
+      <th>fcf_margin</th>
+      <th>investment_efficiency</th>
+      <th>quality_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Meta</td>
+      <td>META</td>
+      <td>2026-06-30</td>
+      <td>27.65%</td>
+      <td>38.08%</td>
+      <td>17.95%</td>
+      <td>0.002</td>
+      <td>76.7</td>
+    </tr>
+    <tr>
+      <td>Microsoft</td>
+      <td>MSFT</td>
+      <td>2026-06-30</td>
+      <td>17.79%</td>
+      <td>46.78%</td>
+      <td>20.19%</td>
+      <td>0.001</td>
+      <td>71.7</td>
+    </tr>
+    <tr>
+      <td>Netflix</td>
+      <td>NFLX</td>
+      <td>2026-06-30</td>
+      <td>16.02%</td>
+      <td>29.68%</td>
+      <td>23.06%</td>
+      <td>0.035</td>
+      <td>64.2</td>
+    </tr>
+    <tr>
+      <td>Apple</td>
+      <td>AAPL</td>
+      <td>2026-06-27</td>
+      <td>14.24%</td>
+      <td>33.17%</td>
+      <td>29.28%</td>
+      <td>0.003</td>
+      <td>63.3</td>
+    </tr>
+    <tr>
+      <td>Alphabet</td>
+      <td>GOOGL</td>
+      <td>2026-06-30</td>
+      <td>20.05%</td>
+      <td>33.11%</td>
+      <td>11.95%</td>
+      <td>0.001</td>
+      <td>52.5</td>
+    </tr>
+    <tr>
+      <td>Amazon</td>
+      <td>AMZN</td>
+      <td>2026-06-30</td>
+      <td>15.77%</td>
+      <td>12.08%</td>
+      <td>-1.50%</td>
+      <td>0.001</td>
+      <td>21.7</td>
+    </tr>
+  </tbody>
+</table>
+<h2>Interpretation</h2><p>The score combines revenue growth, operating margin, free-cash-flow margin, and investment efficiency. It is an analytical comparison, not an investment recommendation.</p>
+</body></html>
